@@ -3,6 +3,7 @@
 ## Overview
 
 stDGAC is a model used to identify spatial domains by jointly using a denoising autoencoder and a graph attention contrastive network for subsequent analysis of spatial transcriptomic data. The pre-trained denoising autoencoder performed dimensionality reduction and denoising, and then the low-dimensional latent representation is learned through a graph attention contrastive network to aggregate the neighborhood information of the spatial context and acquire a more robust and discriminative feature representation. The reconstructed expression profile can be used for downstream analysis such as spatial domain recognition, trajectory inference and gene expression data denoising.
+
 ![stDGAC](https://github.com/JING-ING/stDGAC/blob/main/stDGAC.jpg)
 
 ## Requirements
